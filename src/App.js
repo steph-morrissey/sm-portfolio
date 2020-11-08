@@ -3,6 +3,7 @@ import './App.less';
 import { Layout, Typography, Row, Col, Image } from 'antd';
 
 import Navbar from './components/Navbar';
+import ProjectCard from './components/ProjectCard';
 
 const { Title } = Typography;
 
@@ -49,6 +50,14 @@ const App = () => {
           </Col>
         </Row>
       </Layout>
+      <div>
+        <Row justify='middle' align='center' style={{ paddingTop: '50px' }}>
+          <Title>Projects</Title>
+        </Row>
+        <Row justify='middle' align='center'>
+          <ProjectCard />
+        </Row>
+      </div>
     </div>
   );
 };

@@ -12,7 +12,7 @@ const Navbar = () => {
     <Menu onClick={handleClick} selectedKeys={[current]} mode='horizontal'>
       <Menu.Item key='about'>About</Menu.Item>
       <Menu.Item key='projects'>Projects</Menu.Item>
-      <Menu.Item key='contact'>Contact</Menu.Item>
+      <Menu.Item key='contact'>Connect</Menu.Item>
     </Menu>
   );
 };

@@ -51,6 +51,9 @@ const App = () => {
         </Row>
       </Layout>
       <div>
+        <Row justify='middle' align='center' style={{ paddingTop: '50px' }}>
+          <Title>Projects</Title>
+        </Row>
         <Row justify='middle' align='center'>
           <ProjectCard />
         </Row>

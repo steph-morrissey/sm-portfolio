@@ -1,6 +1,5 @@
 import React from 'react';
 import { Row, Col, Image } from 'antd';
-import { GithubOutlined } from '@ant-design/icons';
 
 const About = () => {
   return (

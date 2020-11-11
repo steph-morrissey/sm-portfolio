@@ -3,8 +3,12 @@ import { Row, Col, Image } from 'antd';
 
 const About = () => {
   return (
-    <Row style={{ padding: '20px' }} align='middle' justify='center'>
-      <Col sm={16} sm-offset={8} md={12} lg={9}>
+    <Row
+      style={{ padding: '20px 20px 40px 20px', backgroundColor: '#F9F8FD' }}
+      align='middle'
+      justify='center'
+    >
+      <Col sm={16} sm-offset={8} md={12} lg={9} style={{ padding: '50px' }}>
         <Image
           src='/Images/steph-morrissey.jpeg'
           placeholder={<Image src='/Images/steph-morrissey.jpeg' width={200} />}
@@ -19,6 +23,7 @@ const About = () => {
             Frameworks (Bootstrap, Semantic UI, Tailwind), JavaScript, jQuery,
             NodeJs, MySQL, MongoDB, Express, Handlebars JS and React JS.
           </p>
+          <p>Have a look at some of my latest personal projects!</p>
         </div>
       </Col>
     </Row>

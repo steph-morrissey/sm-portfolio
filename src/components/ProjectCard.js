@@ -73,10 +73,11 @@ const ProjectCard = () => {
   return projectData.map((project) => {
     return (
       <Card
+        key={project.name}
+        bordered
         style={{
           width: 400,
           margin: '20px',
-          borderStyle: 'solid',
         }}
         actions={[
           <Button

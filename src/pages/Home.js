@@ -18,7 +18,7 @@ function Home() {
           <Row
             style={{
               backgroundColor: '#FFF',
-              padding: '20px 20px 0px 0px',
+              padding: '20px 20px 0px 30px',
             }}
           >
             <Title>Stephanie Morrissey</Title>

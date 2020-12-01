@@ -42,23 +42,6 @@ const ProjectCard = () => {
         'https://steph-morrissey.github.io/steph-morrissey-homework-week-6/',
     },
     {
-      name: 'Meal Joy: Recipes Made Easy',
-      description:
-        'An application that allows users to search for a list of recipes based off a search keyword. Users have the option of saving and favouriting recipes that they can re-visit at another time.',
-      technologies: [
-        'Node JS',
-        'Express',
-        'Express Handlebars',
-        'Passport',
-        'Axios',
-        'Tailwind',
-      ],
-      imageName: 'MEALJOY.png',
-      repoLink: 'https://github.com/hyperkarmic/Meal-Joy',
-      deployedLink: 'https://infinite-dusk-61271.herokuapp.com/',
-    },
-
-    {
       name: 'Day Scheduler',
       description:
         'An in browser application whereby users can input the upcoming events that they have scheduled throughout the day, and understand what events are past/present and future based off colour coding. Events can be added or deleted by the user.',
